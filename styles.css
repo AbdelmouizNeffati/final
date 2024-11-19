@@ -1,0 +1,96 @@
+.logo {
+    width: 100px;
+    height: 100px;
+    margin-top: 1rem;
+}
+#csLogo {
+    width: 50px;  /* Set your desired width */
+    height: auto; /* Maintain aspect ratio */
+    vertical-align: middle; /* Aligns the image with the text */
+    margin-right: 8px; /* Space between the image and the text */
+}
+body {
+    background-color: #121212; /* Dark background */
+    color: #ffffff; /* Light text color */
+}
+
+.header {
+    background-color: #1e1e1e; /* Darker header */
+}
+
+.sidebar {
+    background-color: #1e1e1e; /* Sidebar background */
+}
+
+.sidebar .nav-link {
+    color: #ffffff; /* Light text for sidebar links */
+}
+
+.sidebar .nav-link:hover {
+    background-color: #333333; /* Highlight color on hover */
+}
+
+.logo {
+    width: 30px; /* Example size */
+    height: auto; /* Maintain aspect ratio */
+    vertical-align: middle; /* Aligns the image with the text */
+    margin-right: 8px; /* Space between the image and the text */
+}
+
+h2 {
+    color: #ffffff; /* Light color for section headings */
+}
+
+a {
+    color: #00bcd4; /* Link color */
+}
+
+a:hover {
+    color: #ff4081; /* Link color on hover */
+}
+
+.collapse {
+    background-color: #1e1e1e; /* Dark background for collapsible sections */
+    border: 1px solid #333; /* Border color */
+}
+
+
+body {
+    background-color: #f8f9fa;
+}
+.container {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #282c34;
+}
+
+h1, h2 {
+    color: #ffffff;
+    text-shadow: 1px 1px 2px #000;
+}
+
+header {
+    position: relative;
+}
+
+.instagram-link {
+    position: absolute;
+    top: 25px;
+    right: 15px;
+}
+
+.instagram-icon {
+    width: 24px;  /* Adjust size as needed */
+    height: 24px;
+    transition: transform 0.3s;  /* Add a hover effect */
+}
